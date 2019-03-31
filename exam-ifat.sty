@@ -3,7 +3,7 @@
 %% DEFINE
 %%   \fourMC{correctchoice}{choice}{choice}{choice}
 %%   \fiveMC{correctchoice}{choice}{choice}{choice}
-\newcommand\myMC[4]{
+\newcommand\fourMC[4]{
 \pgfmathtruncatemacro{\temp}{\answerkey[\number\value{question}]}
 \ifnum\temp=1 \correctchoice #1 \choice #2 \choice #3 \choice #4 \else\fi
 \ifnum\temp=2 \choice #2 \correctchoice #1 \choice #3 \choice #4 \else\fi
