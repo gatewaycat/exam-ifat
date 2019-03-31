@@ -1,0 +1,29 @@
+\RequirePackage{luatex85}
+\documentclass[answers]{exam}
+\usepackage{exam-ifat}
+%\usepackage[paperwidth=15cm, paperheight=7cm, margin=2mm]{geometry}
+
+%% SET answerkey for given exam here
+\def\answerkey{{{},3,2,2}} %=DBB
+
+\begin{document}
+\begin{questions}
+\question
+What is the capital of France?
+\begin{oneparchoices}
+\myMC{Paris}{London}{Versaille}{New York}
+\end{oneparchoices}
+
+\question
+What is the circumference of a circle divided by its diameter?
+\begin{choices}
+\myMC{$\pi$}{3}{$2\pi$}{1}
+\end{choices}
+
+\question
+Which of the following is not a gas giant?
+\begin{choices}
+\myMC{Mars}{Jupiter}{Saturn}{Uranus}
+\end{choices}
+\end{questions}
+\end{document}
