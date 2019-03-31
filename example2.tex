@@ -1,0 +1,20 @@
+\RequirePackage{luatex85}
+\documentclass[answers]{exam}
+\usepackage{exam-ifat}
+%\usepackage[paperwidth=15cm, paperheight=7cm, margin=2mm]{geometry}
+
+%% SET answerkey for given exam here
+\def\answerkey{{{},3,2,2}} %=DBB
+
+%% SET random seed (optional)
+\PSNuseoldrandom
+\PSNrandseed{21718}
+
+%% LOAD problems
+\loadrandomproblems{3}{data}
+
+\begin{document}
+\begin{questions}
+\foreachproblem{\question\thisproblem}
+\end{questions}
+\end{document}
