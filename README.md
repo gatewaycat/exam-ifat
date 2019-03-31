@@ -49,7 +49,7 @@ you can enter the questions directly into the main tex file, as below.
     \usepackage{exam-ifat}
     
     %% SET answerkey for given exam here
-    \def\answerkey{{{},3,2,2}} %=DBB
+    \def\answerkey{{{},3,2,2}}
     
     \begin{document}
     \begin{questions}
