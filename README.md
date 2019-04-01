@@ -1,6 +1,6 @@
 # exam-ifat
 
-To use IFAT (Instant Feedback Assessment Technique) scratch-off scantrons, 
+To use IFAT (Immediate Feedback Assessment Technique) scratch-off scantrons, 
 you must match your multiple choice exam to the predetermined key.
 This LaTeX package `exam-ifat.sty` allows you to fix the predetermined answer key.
 For example, to set the answer key to "D,B,B" write `4,2,2` as below.
